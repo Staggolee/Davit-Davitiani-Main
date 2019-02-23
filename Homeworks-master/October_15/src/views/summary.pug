@@ -1,0 +1,33 @@
+mixin displayProducts(products)
+    each product in products
+        tr
+            td= product.name
+            td= `$${product.price}`
+            td= product.quantity
+            td= `$${product.price * product.quantity}`
+
+
+include includes/header.pug
+style.
+    table {
+        border-collapse: collapse;
+        text-align: center;
+    }
+    table, td, th {
+        border: 1px solid black;
+        padding: 5px;
+    }
+
+body
+    include includes/navigation.pug
+    h3= message
+    table
+        tr
+            th Name
+            th Price
+            th Quantity
+            th Total
+        - const products = Object.values(shopCart);
+        +displayProducts(products)
+    - const total = products.reduce((total, prod) => total + Number(prod.price) * prod.quantity, 0);
+    p= `Total: $${Math.floor(total * 100) / 100}`

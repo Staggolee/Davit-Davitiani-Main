@@ -1,0 +1,29 @@
+mixin listProducts(prodArr)
+    each prod in prodArr
+        tr
+            td
+                a(href=`${prod.id}`)= prod.id
+            td= prod.name
+            td= prod.price
+
+//- Document Start
+doctype html
+head
+    title Products
+    style.
+        table {
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+body
+    table
+        tr
+            th Id
+            th Name
+            th Price
+        +listProducts(productsDB)

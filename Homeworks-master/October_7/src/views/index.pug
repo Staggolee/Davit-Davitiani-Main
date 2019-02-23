@@ -1,0 +1,23 @@
+include includes/header.pug
+
+body
+    h1= title
+    hr
+    if added
+        p(style="background-color: grey; padding: 15px;") Product Added
+
+    ul
+        each product in productsDB
+            li= product.name
+
+    a(href="/products") Products List
+    form(action="" method="post")
+        p
+            input(type="text" name="name" placeholder="Product Name" required)
+        p
+            input(type="number" name="id" placeholder="Product Id" required)
+        p
+            input(type="number" name="price" placeholder="Product Price" required)
+        p
+            button(type="submit") Save Product
+    a(href="http://localhost:3000/products/") Show Product List

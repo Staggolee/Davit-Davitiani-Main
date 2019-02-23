@@ -1,0 +1,12 @@
+include includes/header.pug
+body
+    include includes/navigation.pug
+    h1= product.name
+    p Price:&nbsp;
+        b= `$${product.price}`
+    p Description:&nbsp;
+        b= product.description
+    form(action="", method="POST")
+        label(for="quantity") Quantity&nbsp;
+            input#quantity(type="number", name="quantity", min="1", value="1")
+        button(type="submit") Add to cart
