@@ -1,0 +1,179 @@
+*{
+    background-color: rgb(212, 211, 211)
+}
+
+.container{
+background-color: rgb(179, 179, 179);
+border:1px solid #bfbfbf;
+width:80%;
+min-height:400px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.nav{
+width:80%;
+min-height:100px;
+margin-left:auto;
+margin-right:auto;
+background-color: rgb(219, 219, 219)
+}
+
+.nav ul{
+    padding: 0px;
+    list-style: none;	
+}
+
+.nav ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+.nav ul li button{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+#addDay{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+#remDay{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+#update{
+
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+
+#side{
+
+border-right: 1px solid #bfbfbf;
+width:20%;
+height:400px;
+float:left;
+}
+
+#box0 div{    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+    text-align: center;
+    min-height: 39px;
+    line-height: 35px;
+}
+#box0{
+float:left;
+border-right:1px solid #bfbfbf;
+width:10%;
+min-height:400px;
+font-size:14px;
+
+}
+
+
+.points{
+    float:left;
+    border-right:1px solid #bfbfbf;
+    width:5%;
+    min-height:400px;
+}
+
+.points div{
+
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+    text-align: center;
+    min-height: 39px;
+    line-height: 35px;
+    background-color: #018a7d;
+    color: #fff;
+
+}
+
+
+.dayView{
+    float:left;
+    border-right:1px solid #bfbfbf;
+    width:10%;
+    min-height:400px;
+
+}
+
+.dayView div{
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+    text-align: center;
+    min-height: 39px;
+    line-height: 35px;
+    background-color: green ;
+}
+
+
+.dayView div input{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.dayGraph{
+display:none;
+
+}
+
+.dayGraphN{
+display:none;
+
+}
+
+
+.dayGraph{
+display:none;
+
+}
+
+
+
+#stat-header{
+color: grey
+}
+
+#side{
+background-color: rgb(214, 210, 210)
+}
+
+
+#side>p{
+    font-weight: bold
+}
+
+
+#missed{
+background-color:red;
+
+}
+
