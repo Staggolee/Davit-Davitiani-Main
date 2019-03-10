@@ -3,20 +3,34 @@
 }
 
 .container{
-background-color: rgb(179, 179, 179);
-border:1px solid #bfbfbf;
-width:80%;
-min-height:400px;
-margin-left:auto;
-margin-right:auto;
+    background-color: rgb(179, 179, 179);
+    border:1px solid #bfbfbf;
+    width:80%;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+
+    
+}
+
+.dayView{
+    border-right:1px solid #bfbfbf;
+    width:10%;
+    height:1400px;
+    display: inline-block;
+    
+
 }
 
 .nav{
-width:80%;
-min-height:100px;
-margin-left:auto;
-margin-right:auto;
-background-color: rgb(219, 219, 219)
+    width:80%;
+    min-height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(219, 219, 219)
 }
 
 .nav ul{
@@ -104,7 +118,7 @@ font-size:14px;
 }
 
 .points div{
-
+    
     border-bottom: 1px solid #bfbfbf;
     overflow: hidden;
     text-align: center;
@@ -112,17 +126,10 @@ font-size:14px;
     line-height: 35px;
     background-color: #018a7d;
     color: #fff;
-
+    
 }
 
 
-.dayView{
-    float:left;
-    border-right:1px solid #bfbfbf;
-    width:10%;
-    min-height:400px;
-
-}
 
 .dayView div{
     border-bottom: 1px solid #bfbfbf;
