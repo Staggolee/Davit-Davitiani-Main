@@ -1,0 +1,35 @@
+.cart__details {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart__total {
+  font-size: 1.3em;
+  padding: 30px 0;
+}
+
+.cart__btn--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.cart__btn {
+  border: none;
+  background: none;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 200ms, color 200ms ease-in-out;
+}
+
+.cart__btn:hover {
+  background-color: var(--hover-red);
+}

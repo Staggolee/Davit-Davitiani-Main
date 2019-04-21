@@ -1,0 +1,19 @@
+:root {
+  --columns: 4;
+}
+
+.product-list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  flex-grow: 1;
+}
+
+.no-product {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+}

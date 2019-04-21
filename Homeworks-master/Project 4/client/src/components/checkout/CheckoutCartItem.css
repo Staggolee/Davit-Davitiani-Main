@@ -1,0 +1,118 @@
+.checkout__cart--item {
+  padding: 40px 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgrey;
+}
+
+.checkout__cart--img {
+  background-color: #ddd;
+  width: 60px;
+  height: 80px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+}
+
+.checkout__cart--img::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transition: opacity 200ms ease-in;
+  opacity: 0;
+}
+
+.checkout__cart--img:hover::before {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.checkout__cart--title {
+  text-decoration: none;
+  color: #555;
+  transition: color 200ms ease-in-out;
+  width: 200px;
+}
+
+.checkout__cart--title:hover {
+  color: var(--hover-red);
+}
+
+.checkout__cart--price,
+.checkout__cart--price-total {
+  color: #888;
+}
+
+.checkout__cart--quantity {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+.quantity-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(150, 150, 150);
+  transition: background 200ms cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.quantity-btn:hover {
+  color: #fff;
+  background-color: var(--hover-red);
+}
+
+.quantity-input {
+  outline: none;
+  border: none;
+  padding: 13px 0px 12px 15px;
+  width: 40px;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+.checkout__cart--amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #ececec;
+}
+
+@media only screen and (max-width: 540px) {
+  .checkout__cart--item {
+    padding: 30px 15px 50px;
+  }
+  .checkout__cart--title {
+    
+    width: 150px;
+    font-size: 14px; 
+  }
+  .checkout__cart--price,
+  .checkout__cart--price-total {
+  font-size: 14px;
+  padding: 5px
+  }
+.checkout__cart--quantity {
+  
+  margin: 0 10px;
+  
+  
+  }
+}

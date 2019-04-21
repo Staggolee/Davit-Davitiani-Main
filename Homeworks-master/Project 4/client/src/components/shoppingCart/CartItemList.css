@@ -1,0 +1,12 @@
+.cart__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: auto;
+  max-height: 60%;
+}
+
+.cart-empty-msg {
+  text-align: center;
+  color: crimson;
+}

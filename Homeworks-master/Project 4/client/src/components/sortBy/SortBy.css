@@ -1,0 +1,26 @@
+.category-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.category {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* .sort-text {
+  font-weight: bold;
+  color: rgb(150, 150, 150);
+}
+
+.sort-type {
+  font-weight: bold;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.sort-type:hover {
+  color: var(--hover-red);
+} */

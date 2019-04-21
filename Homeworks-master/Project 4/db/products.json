@@ -1,0 +1,223 @@
+[
+  {
+    "id": "e11a85f0-fd46-11e8-8fd8-897319b1388b",
+    "name": "Premium T-shirt",
+    "price": 1500,
+    "size": "S",
+    "gender": "men",
+    "category": "T-shirts",
+    "brand": "Adidas",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-01.jpg"
+  },
+  {
+    "id": "ckaa21f0-fd46-22e8-9fd8-497319b1388b",
+    "name": "Premium T-shirt",
+    "price": 2500,
+    "size": "L",
+    "gender": "men",
+    "category": "T-shirts",
+    "brand": "Adidas",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-02.jpg"
+  },
+  {
+    "id": "e11c59f0-fd46-11e8-8fd8-897319b1388b",
+    "name": "Premium Sweater",
+    "price": 1200,
+    "size": "M",
+    "gender": "men",
+    "category": "Sweaters",
+    "brand": "Nike",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-03.jpg"
+  },
+  {
+    "id": "5911c0fe-4fd6-181e-88fd-3b831989718b",
+    "name": "Premium Sweater",
+    "price": 3000,
+    "size": "XL",
+    "gender": "men",
+    "category": "Sweaters",
+    "brand": "Nike",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-04.jpg"
+  },
+  {
+    "id": "e11a85f0-fd46-09bs-8fd8-897319b1388b",
+    "name": "Premium Jacket",
+    "price": 1300,
+    "size": "S",
+    "gender": "men",
+    "category": "Jackets",
+    "brand": "Dolce",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-05.jpg"
+  },
+  {
+    "id": "afe10185-09bs-f46d-88fd-971389b1838b",
+    "name": "Premium Jacket",
+    "price": 2000,
+    "size": "M",
+    "gender": "men",
+    "category": "Jackets",
+    "brand": "Dolce",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-06.jpg"
+  },
+  {
+    "id": "e792b650-fd46-11e8-8fd8-897319b1388b",
+    "name": "Premium Pants",
+    "price": 2000,
+    "size": "L",
+    "gender": "men",
+    "category": "Pants",
+    "brand": "Armani",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-07.jpg"
+  },
+  {
+    "id": "la07kd69-fd46-11e8-8fd8-895419b5388b",
+    "name": "Premium Pants",
+    "price": 4000,
+    "size": "XL",
+    "gender": "men",
+    "category": "Pants",
+    "brand": "Armani",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-08.jpg"
+  },
+  {
+    "id": "e792b650-fd46-11e8-8fd8-848659b1388b",
+    "name": "Premium Shorts",
+    "price": 2000,
+    "size": "M",
+    "gender": "men",
+    "category": "Shorts",
+    "brand": "Adidas",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-09.jpg"
+  },
+  {
+    "id": "e792b650-fhd6-97e8-8fd8-865b1843438k",
+    "name": "Premium Shorts",
+    "price": 3900,
+    "size": "XL",
+    "gender": "men",
+    "category": "Shorts",
+    "brand": "Adidas",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/men/men-10.jpg"
+  },
+
+  {
+    "id": "e792b650-fd46-11bd-8fd8-987319b8568b",
+    "name": "Premium Jacket",
+    "price": 2000,
+    "size": "S",
+    "gender": "women",
+    "category": "Jackets",
+    "brand": "Nike",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-01.jpg"
+  },
+  {
+    "id": "fd272370-f4d6-63jd-4b93-9dkhe9c3b8f5",
+    "name": "Premium Jacket",
+    "price": 5000,
+    "size": "M",
+    "gender": "women",
+    "category": "Jackets",
+    "brand": "Nike",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-02.jpg"
+  },
+  {
+    "id": "ec181760-fd46-11e8-8fd8-897319b1388b",
+    "name": "Premium Shorts",
+    "price": 900,
+    "size": "S",
+    "gender": "women",
+    "category": "Shorts",
+    "brand": "Dolce",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-03.jpg"
+  },
+  {
+    "id": "754d87f0-fd46-22e8-4b93-9dkhe9c3b8f5",
+    "name": "Premium Shorts",
+    "price": 3000,
+    "size": "XL",
+    "gender": "women",
+    "category": "Shorts",
+    "brand": "Dolce",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-04.jpg"
+  },
+  {
+    "id": "f22773d0-fd46-11e8-8fd8-897319b1388b",
+    "name": "Premium Pants",
+    "price": 1300,
+    "size": "S",
+    "gender": "women",
+    "category": "Pants",
+    "brand": "Armani",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-05.jpg"
+  },
+  {
+    "id": "f75d8740-fd46-11e8-b943-c3bfkh9d8e95",
+    "name": "Premium Pants",
+    "price": 2500,
+    "size": "M",
+    "gender": "women",
+    "category": "Pants",
+    "brand": "Armani",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-06.jpg"
+  },
+  {
+    "id": "f22773d0-fd46-8fd8-11e8-897319b1388b",
+    "name": "Premium Sweater",
+    "price": 2200,
+    "size": "M",
+    "gender": "women",
+    "category": "Sweaters",
+    "brand": "Adidas",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-07.jpg"
+  },
+  {
+    "id": "f22773d0-fd46-8fd8-11e8-829679d1388b",
+    "name": "Premium Sweater",
+    "price": 3800,
+    "size": "L",
+    "gender": "women",
+    "category": "Sweaters",
+    "brand": "Adidas",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-08.jpg"
+  },
+  {
+    "id": "f22773d0-11e8-fd46-8fd8-897319b1388b",
+    "name": "Premium T-shirt",
+    "price": 1200,
+    "size": "S",
+    "gender": "women",
+    "category": "T-shirts",
+    "brand": "Dolce",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-09.jpg"
+  },
+  {
+    "id": "f22773d0-11e8-fd46-8fd8-331988897bb1",
+    "name": "Premium T-shirt",
+    "price": 4000,
+    "size": "XL",
+    "gender": "women",
+    "category": "T-shirts",
+    "brand": "Armani",
+    "description": "Limited Edition is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "image": "/images/women/women-10.jpg"
+  }
+]

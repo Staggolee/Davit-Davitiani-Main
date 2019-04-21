@@ -1,0 +1,162 @@
+.about-header {
+  display: flex;
+  justify-content: center;
+}
+.about-header-p {
+  width: 530px;
+  height: 5px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-top: 40px;
+  background: rgb(61, 61, 61);
+}
+.about-us-text {
+  font-size: 35px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  margin: 20px;
+  white-space: nowrap;
+}
+.about-main {
+  display: flex;
+  padding: 60px;
+}
+.main-content1 {
+  background-image: url("girlimg.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+}
+.main-content2 {
+  margin-left: 50px;
+  width: 500px;
+  margin-top: 180px;
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+.fashion-p {
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  width: 500px;
+  
+}
+
+.main-content4 {
+  background-image: url("boyimg.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 400px;
+  width: 760px;
+  margin-left: 100px;
+}
+
+.about-main2 {
+  display: flex;
+  padding: 60px;
+}
+.about-foot-text {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  text-align: center;
+}
+.about-foot-nav {
+  background-image: url("amberlove.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 40px;
+  line-height: 320px;
+}
+@media only screen and (max-width: 1066px) {
+  .about-main {
+    display: initial;
+  }
+  .main-content1 {
+    background-image: url("girlimg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .main-content2 {
+    margin: 0 auto;
+    width: 550px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+  }
+  .about-main2 {
+    display: initial;
+    
+  }
+  .fashion-p {
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .main-content4 {
+    background-image: url("boyimg2.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top:40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .main-content1 {
+    background-image: url("girlimg.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .main-content2 {
+    margin: 0 auto;
+    width: 350px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+  }
+  .about-main2 {
+    display: initial;
+    
+  }
+  .fashion-p {
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .main-content4 {
+    background-image: url("boyimg2.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top:40px;
+  }
+}

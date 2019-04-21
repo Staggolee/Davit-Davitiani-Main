@@ -1,0 +1,22 @@
+.cart__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .cart__title {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  
+  .cart__close {
+    font-size: 2em;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+  }
+  
+  .cart__close:hover {
+    color: var(--hover-red);
+  }
+  

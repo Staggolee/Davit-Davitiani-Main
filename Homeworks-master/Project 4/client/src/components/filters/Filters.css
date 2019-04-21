@@ -1,0 +1,42 @@
+.filters {
+  min-width: 180px;
+}
+
+.filter {
+  padding-bottom: 40px;
+}
+
+.filter__title {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .filters {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filter {
+    flex-basis: 50%;
+    padding-left: 50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  .filters {
+    padding-left: calc(30%);
+    
+  }
+
+
+  .filter {
+    flex-basis: 100%;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,127 @@
+.res-product {
+  border: 1px solid rgb(187, 182, 182);
+  margin: 0 auto;
+  color: #fff;
+  background: none;
+  background: var(--hover-red);
+  box-shadow: 10px 10px 40px -10px rgba(5, 5, 5, 0.57);
+  -moz-box-shadow: 10px 10px 40px -10px rgba(5, 5, 5, 0.57);
+  transition: all 0.3s ease 0s;
+  padding: 20px;
+}
+
+.product-img {
+  max-width: 300px;
+  max-height: 300px;
+  color: #fff;
+  background: none;
+  box-shadow: 10px 10px 40px -10px rgba(5, 5, 5, 0.57);
+  -moz-box-shadow: 10px 10px 40px -10px rgba(5, 5, 5, 0.57);
+  transition: all 0.3s ease 0s;
+  border-radius: 20px;
+}
+
+.product-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-btn {
+  display: inline-block;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 6px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.product-btn:hover {
+  color: #000;
+  background: none;
+  background: #fff;
+  transition: background 200ms, color 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.usermsg {
+  margin-bottom: 40px;
+}
+.product-details-list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 23px;
+  color: #000;
+}
+.product-details-li {
+  padding: 10px 0;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-details-li:first-child {
+  flex-basis: 100%;
+}
+
+.product-details-li span {
+  color: white;
+}
+
+.product-details-input {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+.product-input-wrapper {
+  position: relative;
+  color: #fff;
+}
+.product-input-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: grey;
+  transition: background 200ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.product-input-wrapper:focus-within::after {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 650px) {
+  .product-details-li {
+    flex-basis: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width: 402px) {
+  .product-img {
+    width: 250px;
+  }
+}
+
+
+

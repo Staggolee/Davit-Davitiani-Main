@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(212, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#stat-header{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(179, 179, 179);
+    border:1px solid #bfbfbf;
+    width:80%;
+    height:400px;
+    margin-left:auto;
+    margin-right:auto;
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+
+    
+}
+
+.title{
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+    border: 1px solid #a7a5a5;
+    background: #05155a;
+    color: #fff;
+    
+}
+
+#students{
+    display: inline;
+    border: 2px green solid;
+    
+    
+}
+.averages {
+    display: inline;
+    max-width: 100px;
+    
+
+}
+
+#add-student{
+    padding: 10px 10px;
+    
+}
+
+
+
+#student{
+    border: #05155a 2px dotted;
+    background: #072197;
+    display: inline;
+    
+    
+    
+
+}
+
+#avg-student{
+    border: #05155a 2px dotted;
+    background: #072197;
+    display: inline;
+    
+}
+
+ 
+
+.nav{
+    width:80%;
+    min-height:100px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(219, 219, 219);
+    padding: 15px 5px;
+}
+
+.nav ul{
+    padding: 0px;
+    list-style: none;	
+}
+
+.nav ul li{
+    float: left;
+    margin-left: 20px;
+}
+
+.nav ul li button{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+#addDay{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+#remDay{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+#update{
+
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+#addStud{
+
+    color: #fff;
+    background-color: #4e81f0;
+    border-color: #3658ee;
+
+}
+
+
+#remStud{
+
+    color: #fff;
+    background-color: #8f0101;
+    border-color: #5a0101;
+
+}
+
+
+#side{
+
+border-right: 1px solid #bfbfbf;
+width:20%;
+height:400px;
+float:left;
+}
+
+
+#stat-header{
+color: grey
+}
+
+#side{
+background-color: rgb(214, 210, 210)
+}
+
+
+#side>p{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#missed{
+background-color:red;
+
+}
+

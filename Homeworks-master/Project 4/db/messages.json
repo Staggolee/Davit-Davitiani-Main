@@ -1,0 +1,14 @@
+[
+  {
+    "id": "b479ed10-fd5f-11e8-884d-a3db58ef4c2f",
+    "email": "grigol@test.com",
+    "message": "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit ametipsum dolor sit ametipsum dolor sit amet",
+    "date": "2018-12-10"
+  },
+  {
+    "id": "ba51e5d0-fd5f-11e8-884d-a3db58ef4c2f",
+    "email": "john@test.com",
+    "message": "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet",
+    "date": "2017-10-18"
+  }
+]

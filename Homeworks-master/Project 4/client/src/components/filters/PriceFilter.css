@@ -1,0 +1,35 @@
+.price-input--wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price-input-label {
+  padding-left: 10px;
+}
+
+.price-input {
+  width: 70px;
+  padding: 5px 10px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  transition: border 200ms ease-in;
+}
+
+.price-input:focus {
+  outline: none;
+  border-color: var(--hover-red);
+}
+
+.price-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .price-input {
+    width: 100px;
+  }
+}
