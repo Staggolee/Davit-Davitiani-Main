@@ -2,6 +2,7 @@
     background-color: rgb(212, 211, 211)
 }
 
+
 .container{
     background-color: rgb(179, 179, 179);
     border:1px solid #bfbfbf;
@@ -13,24 +14,16 @@
     overflow: auto;
     overflow-y: hidden;
 
-    
-}
 
-.dayView{
-    border-right:1px solid #bfbfbf;
-    width:10%;
-    height:1400px;
-    display: inline-block;
-    
 
 }
 
 .nav{
-    width:80%;
-    min-height:100px;
-    margin-left:auto;
-    margin-right:auto;
-    background-color: rgb(219, 219, 219)
+width:80%;
+height:100px;
+margin-left:auto;
+margin-right:auto;
+background-color: rgb(219, 219, 219)
 }
 
 .nav ul{
@@ -85,6 +78,12 @@
     border-color: #eea236;
 }
 
+#addStudent {
+    color: #fff;
+    background-color: purple;
+    border-color: rgb(141, 6, 141);
+}
+
 
 #side{
 
@@ -94,7 +93,8 @@ height:400px;
 float:left;
 }
 
-#box0 div{    border-bottom: 1px solid #bfbfbf;
+#box0 div{    
+    border-bottom: 1px solid #bfbfbf;
     overflow: hidden;
     text-align: center;
     min-height: 39px;
@@ -104,7 +104,7 @@ float:left;
 float:left;
 border-right:1px solid #bfbfbf;
 width:10%;
-min-height:400px;
+height:400px;
 font-size:14px;
 
 }
@@ -114,22 +114,29 @@ font-size:14px;
     float:left;
     border-right:1px solid #bfbfbf;
     width:5%;
-    min-height:400px;
+    height:400px;
 }
 
 .points div{
-    
+
     border-bottom: 1px solid #bfbfbf;
     overflow: hidden;
     text-align: center;
-    min-height: 39px;
+    height: 39px;
     line-height: 35px;
     background-color: #018a7d;
     color: #fff;
-    
+
 }
 
 
+.dayView{
+    float:left;
+    border-right:1px solid #bfbfbf;
+    width:10%;
+    height:400px;
+
+}
 
 .dayView div{
     border-bottom: 1px solid #bfbfbf;
@@ -183,4 +190,60 @@ background-color: rgb(214, 210, 210)
 background-color:red;
 
 }
+
+.days{
+    /* float:left; */
+    border-right:1px solid #bfbfbf;
+    width:64%;
+    height:40px;
+    display: inline-block;
+    
+
+}
+
+.days div{
+
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+    text-align: center;
+    height: 39px;
+    line-height: 35px;
+    background-color: #018a7d;
+    color: #fff;
+
+}
+
+.stud-days  {
+    /* float:left; */
+    border-right:1px solid #bfbfbf;
+    width:10%;
+    height:400px;
+    display: inline-block;
+    
+} 
+.stud-days div{
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+    text-align: center;
+    height: 39px;
+    line-height: 35px;
+    background-color: #018a7d;
+    color: #fff;
+    
+}
+.stud-score {
+    
+    /* border-right:1px solid #bfbfbf;
+    width:10%;
+    min-height:400px; */
+    
+    border-bottom: 1px solid #bfbfbf;
+    overflow: hidden;
+    text-align: center;
+    height: 39px;
+    line-height: 35px;
+    background-color: #018a7d;
+    color: #fff;
+}
+
 

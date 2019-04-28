@@ -43,8 +43,7 @@ let evs = document.querySelectorAll(".inp");
 
 
 let handler = function() {
-	let pt = prompt("Enter Point", "");
-	
+    let pt = prompt("Enter Point", "");
 	
 	if(pt == 0){
 		this.setAttribute("id", "missed");	
@@ -55,7 +54,7 @@ let handler = function() {
 	}
 	this.innerHTML = pt;
 	sumStats();
-console.log(this)
+
 };
 
 
