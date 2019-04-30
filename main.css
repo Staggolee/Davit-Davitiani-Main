@@ -4,7 +4,7 @@
     --max-width: 1100px;
     --orange-color: #f99500;
     --red-color: #c72727;
-    --purple-color: #a66bbe;
+    --purple-color: #9035b4;
     --blue-color: #009cff;
 }
 
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
     display: inline-block;
     columns: #fff;
-    background: #a66bbe;
+    background: var(--purple-color);
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 5px;
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-nav {
-    background: #a66bbe;
+    background: var(--purple-color);
     position: sticky;
     top: 0;
     z-index: 2;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #skills .items {
     display: flex;
-    background: #a66bbe;
+    background: var(--purple-color);
     border-radius: 8px;
 }
 
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card a {
-    color: #a66bbe;
+    color: var(--purple-color);
 }
 
 #home-project .project-container {
@@ -187,5 +187,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #contact {
-    background: #a66bbe;
+    background: var(--purple-color);
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem;
+}
+
+.contact-content p {
+    font-weight: bold;
 }
