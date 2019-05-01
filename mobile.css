@@ -1,0 +1,50 @@
+
+    #main-nav {
+        flex-direction: row;
+        padding: 0.2;
+        justify-content: space-around
+
+    }
+
+    #main-nav ul {
+        align-items: flex-start
+    }
+
+    #main-nav ul li {
+        padding: 0.2rem;
+    }
+
+    .about-me-img{
+        display: none;
+    }
+
+    #about-me {
+     align-items: center;
+     font-size: 10px
+    }
+
+    #about-me-text{
+        flex-direction: column;
+    }
+
+    .container {
+        margin-bottom: 2rem;
+    }
+
+    #home-project .container {
+        font-size: 10px;
+        flex-direction: column;
+        flex: 4;
+    }
+
+    #home-project .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-content {
+        flex-direction: row;
+        justify-items: center;
+        font-size: 6px;
+    }
+
+    
